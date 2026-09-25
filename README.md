@@ -122,6 +122,9 @@ downloads each item's original MIME content in parallel batches. If that
 fails, it tries NTLM and basic login, then autodiscover, then IMAP. A
 manifest records what has been saved, which is what makes resuming work.
 
+<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/2ecbf584-d7a0-42d0-84cc-fcaef2d5fa3b" />
+
+
 ## Development
 
 ```bash
