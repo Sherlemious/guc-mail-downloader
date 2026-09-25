@@ -1,0 +1,5 @@
+guc-mail-backup/
+*.part
+__pycache__/
+.venv/
+venv/
