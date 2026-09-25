@@ -6,6 +6,8 @@ folder (Inbox, Sent, Deleted, Drafts, Junk, your own folders, and the Online
 Archive), keeps all attachments, and can be stopped and resumed at any time.
 Afterwards you get a **searchable offline copy** that opens in any web browser.
 
+<img width="1917" height="911" alt="Screenshot of guc-mail-downloader" src="https://github.com/user-attachments/assets/2ecbf584-d7a0-42d0-84cc-fcaef2d5fa3b" />
+
 ## How to use it (no technical knowledge needed)
 
 1. **Download this tool**: on the GitHub page click **Code → Download ZIP**,
@@ -121,9 +123,6 @@ item in every folder directly, not page by page like the webmail, then
 downloads each item's original MIME content in parallel batches. If that
 fails, it tries NTLM and basic login, then autodiscover, then IMAP. A
 manifest records what has been saved, which is what makes resuming work.
-
-<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/2ecbf584-d7a0-42d0-84cc-fcaef2d5fa3b" />
-
 
 ## Development
 
