@@ -6,7 +6,7 @@ title University mailbox backup
 set "PY="
 where py >nul 2>nul && set "PY=py -3"
 if not defined PY (
-    python -c "import sys; sys.exit(0 if sys.version_info >= (3, 8) else 1)" >nul 2>nul && set "PY=python"
+    python -c "import sys; sys.exit(0 if sys.version_info >= (3, 9) else 1)" >nul 2>nul && set "PY=python"
 )
 if not defined PY (
     echo Python 3 is not installed.
